@@ -1,0 +1,35 @@
+# Binaries & Executables
+cloudflared.exe
+*.exe
+*.dll
+
+# Node.js & Web Dashboard
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+package-lock.json
+
+# Python & ML
+**/__pycache__/
+**/*.py[cod]
+**/myenv/
+**/venv/
+**/.pytest_cache/
+
+# Android Mobile App Builds
+**/.gradle/
+**/build/
+**/*.apk
+**/*.aab
+**/local.properties
+**/.idea/
+
+# Environment Variables & Secrets
+**/.env
+**/.env.local
+**/*.env
+
+# OS metadata
+.DS_Store
+Thumbs.db
